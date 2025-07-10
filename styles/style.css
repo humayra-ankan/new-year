@@ -22,7 +22,7 @@ header{ height:600px;
     text-align: center;
     align-content: center;
     margin:50px 140px 0px 50px;
-    padding:
+   
       
 }
  .h-subtitle{color: white;
@@ -42,7 +42,7 @@ header{ height:600px;
   width: 809px;
   margin: 120px 399px 0px 399px;
   display:flex;
-  gap: 48px;
+  gap: 40px;
   flex-direction: column;
   justify-content: center;
   align-items: center;
@@ -68,4 +68,40 @@ header{ height:600px;
 .offer-div{
   text-align: center;
  
+}
+.midnight-party{
+  height:600px ;
+  width: 1320px;
+  background-image: url("../images/midparty.png");
+  background-repeat: no-repeat;
+  
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin:110px 100px 0px 100px ;
+ 
+}
+.mid-title{ 
+  font-size: 64px;
+  font-weight:bold;
+  line-height: 88px;
+  color: white;
+}
+.mid-div{
+  display: flex;
+  flex-direction: column;
+  gap: 24px;
+  width: 50%;
+}
+.mid-text{
+  font-size: 18px;
+  font-weight:400px;
+  color: white;
+
+}
+.link{ font-size: 18px;
+  font-weight:600px;
+  color: white;
+  text-decoration: none;
+
 }
