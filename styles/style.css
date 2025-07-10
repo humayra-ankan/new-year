@@ -1,0 +1,71 @@
+*{margin:0px;
+padding: 0px;}
+
+/* font styles shared styles */
+.merriweather-normal {
+  font-family: "Merriweather", serif;
+  font-optical-sizing: auto;
+  font-style: normal;
+  font-variation-settings:
+    "wdth" 100;
+}
+.inter{
+  font-family: "Inter", sans-serif;
+  font-optical-sizing: auto;
+  font-style: normal;
+}
+
+/* header-section */
+header{ height:600px;
+    width: 1320px;
+    background-image: url("../images/banner.png");
+    text-align: center;
+    align-content: center;
+    margin:50px 140px 0px 50px;
+    padding:
+      
+}
+ .h-subtitle{color: white;
+    font-size: 32px;
+    font-weight: 400px;
+    
+ }
+ .h-title{ color: white;
+     font-size: 72px;
+    font-weight: 900px;
+
+ }
+
+ /* offer section  */
+.offer{
+  height:806px;
+  width: 809px;
+  margin: 120px 399px 0px 399px;
+  display:flex;
+  gap: 48px;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  
+}
+
+
+.offer-title{
+  color: #ff0000;
+  font-size:80px ;
+  font: weight 800px; ;
+}
+.offer-text{
+  color: #ff0000;
+  font-size:24px ;
+  font: weight 500px; ;
+}
+.offer-sub{
+  color: #070211;
+  font-size: 48px ;
+  font-weight:bold ;
+}
+.offer-div{
+  text-align: center;
+ 
+}
